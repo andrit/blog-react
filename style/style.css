@@ -1,3 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre|Abril+Fatface|Chelsea+Market|Griffy|Kaushan+Script|Permanent+Marker|Satisfy|Source+Code+Pro');
+
 form a {
     margin-left:6px;
+}
+
+div{
+    max-width:500px;
+    height: auto;
+    border: 1px ridge rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    text-shadow: 2px;
+    font-family: 'Abril Fatface', cursive;;
+
+}
+
+em{
+    font-family:'Kaushan Script', cursive;
+}
+
+p{
+    font-size:15px;
+    line-height:18px;
+
+    font-family:'Abhaya Libre', serif;;
+
+}
+
+h1{
+    font-size:34px;
+    line-height: 47px;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+h2{
+    line-height: 28px;
+    font-size:30px;
+    font-family: 'Griffy', cursive;
+}
+
+h3{
+    font-size:22px;
+    line-height:22px;
+    font-family: 'Chelsea Market', cursive;;
+}
+
+h6{
+    font-size:39px;
+    line-height: 50px;
+    font-family: 'Permanent Marker', cursive;;
+}
+
+button{
+    border-radius:13px;
+    border-style: outset;
+    font-family: 'Satisfy', cursive;;
+}
+
+*{
+    box-sizing: content-box;
+    color: #000;
+    background-blend-mode: overlay;
 }

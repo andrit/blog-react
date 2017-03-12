@@ -25,6 +25,8 @@ class PostsIndex extends Component {
         });
     }
 
+    //create a foreach of renderPosts into a data object wherein I can pull the title and other 'refs/props/state'
+    //to do  create blogname var for injection into jumbotron
     render() {
         return (
             <div>
@@ -33,10 +35,16 @@ class PostsIndex extends Component {
                         Add a Post
                     </Link>
                 </div>
-                <h3>Posts</h3>
-                <ul className="list-group">
-                    {this.renderPosts()}
-                </ul>
+                <div class="jumbotron">
+                    <h1><strong>Blog Name---azmakarusian</strong></h1>
+                </div>
+
+                <section className="well">
+                    <h3 className="title-header">Posts</h3>
+                    <ul className="list-group">
+                        {this.renderPosts()}
+                    </ul>
+                </section>
             </div>
         );
     }

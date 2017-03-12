@@ -1,0 +1,5 @@
+@ mixin allTextSettings($fontsize, $lineheight, $extrasettingvalue, $extrasettingkey){
+  font-size: $fontsize;
+  line-height: $lineheight;
+  $extrasettingkey: $extrasettingvalue;
+}
